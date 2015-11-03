@@ -20,10 +20,9 @@ public class BoatTests {
 		
 		assertTrue(testBoat.collision(mockLog));
 		assertTrue(world.withinBounds(testBoat));
-		
-		// Test collisions
-		// Test HP
-		
+		testBoat.move(); 								// Move the boat somewhere
+		assertTrue(world.withinBounds(testBoat));		// Make sure boat is still in bounds
+			
 	}
 
 }

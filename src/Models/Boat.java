@@ -69,6 +69,9 @@ public class Boat extends GameObject{
 	
 //	---------------------------------------------------------------------------------------------
 	
+	public void move(){
+		// Calls other method
+	}
 
 
 }
