@@ -4,7 +4,6 @@ public class Log extends GameObject{
 
 	private int xPos;
 	private int yPos;
-	private boolean physical;
 	
 	// GameObject --------------------------------------------------------------------------------
 	@Override

@@ -5,7 +5,6 @@ public class Tree extends GameObject{
 	private int xPos;
 	private int yPos;
 	private boolean isAlive;
-	private boolean physical;
 
 	public boolean isAlive() {
 		return isAlive;

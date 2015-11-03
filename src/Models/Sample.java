@@ -6,7 +6,6 @@ public class Sample extends GameObject {
 	private int yPos;
 	private double turbidity;
 	private double pH;
-	private boolean physical;
 	
 	public double getTurbidity() {
 		return turbidity;
