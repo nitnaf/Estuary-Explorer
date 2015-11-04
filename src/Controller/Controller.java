@@ -3,6 +3,7 @@ package Controller;
 import java.util.ArrayList;
 
 import Models.GameObject;
+import View.View;
 import engineLink.Entity;
 
 
@@ -13,10 +14,11 @@ import engineLink.Entity;
  */
 public class Controller {
 	
+	View view;
 	ArrayList<GameObject> entities = new ArrayList<GameObject>();
 	
 	public Controller(){
-		
+		view = new View();
 	}
 	
 	
@@ -24,7 +26,7 @@ public class Controller {
 	 * Creates window and sets up 
 	 */
 	public void createDisplay(){
-		
+		view.createDisplay();
 	}
 	
 	/**
