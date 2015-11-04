@@ -17,7 +17,7 @@ public class Land extends Terrain {
 	 * 
 	 * @param isEroding a boolean statement to indicate if terrain unit is eroding
 	 */
-	public void setEroding(boolean isErroding) {
+	public void setEroding(boolean isEroding) {
 		this.isEroding = isEroding;
 	}
 
