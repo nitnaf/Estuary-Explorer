@@ -4,7 +4,6 @@ public class Log extends GameObject{
 
 	private int xPos;
 	private int yPos;
-	private boolean physical;
 	
 	// GameObject --------------------------------------------------------------------------------
 	@Override
@@ -40,6 +39,10 @@ public class Log extends GameObject{
 	}
 
 	@Override
+	public void draw() {
+		// TODO Auto-generated method stub
+		
+	}
 	public int getXPosition() {
 		// TODO Auto-generated method stub
 		return 0;

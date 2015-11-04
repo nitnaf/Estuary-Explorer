@@ -5,7 +5,6 @@ public class Tree extends GameObject{
 	private int xPos;
 	private int yPos;
 	private boolean isAlive;
-	private boolean physical;
 
 	public boolean isAlive() {
 		return isAlive;
@@ -49,6 +48,10 @@ public class Tree extends GameObject{
 	}
 
 	@Override
+	public void draw() {
+		// TODO Auto-generated method stub
+		
+	}
 	public int getXPosition() {
 		// TODO Auto-generated method stub
 		return 0;
