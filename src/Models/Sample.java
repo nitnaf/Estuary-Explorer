@@ -12,6 +12,7 @@ public class Sample extends GameObject {
 	private int yPos;
 	private double turbidity;
 	private double pH;
+	private boolean discovered;
 	
 	public double getTurbidity() {
 		return turbidity;
@@ -25,7 +26,12 @@ public class Sample extends GameObject {
 	public void setpH(double pH) {
 		this.pH = pH;
 	}
-	
+	public boolean isDiscovered() {
+		return discovered;
+	}
+	public void setDiscovered(boolean discovered) {
+		this.discovered = discovered;
+	}
 	// GameObject --------------------------------------------------------------------------------
 	@Override
 	public void updatePosition() {

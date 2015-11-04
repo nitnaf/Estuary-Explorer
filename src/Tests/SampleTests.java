@@ -17,6 +17,7 @@ public class SampleTests {
 		Boat mockBoat = new Boat();
 		
 		assertTrue(mockBoat.collision(testSample));
+		assertTrue(testSample.isDiscovered());
 		
 	}
 
