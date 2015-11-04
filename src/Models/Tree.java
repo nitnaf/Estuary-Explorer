@@ -55,19 +55,16 @@ public class Tree extends GameObject implements java.io.Serializable{
 		
 	}
 	public int getXPosition() {
-		// TODO Auto-generated method stub
-		return 0;
+		
+		return xPos;
 	}
 
 	@Override
 	public int getYPosition() {
-		// TODO Auto-generated method stub
-		return 0;
+		return yPos;
 	}
 
-	public int getxPos() {
-		return xPos;
-	}
+
 
 	public void setxPos(int xPos) {
 		this.xPos = xPos;

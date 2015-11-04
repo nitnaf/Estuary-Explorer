@@ -48,16 +48,7 @@ public class Log extends GameObject implements java.io.Serializable{
 		// TODO Auto-generated method stub
 		
 	}
-	public int getXPosition() {
-		// TODO Auto-generated method stub
-		return 0;
-	}
 
-	@Override
-	public int getYPosition() {
-		// TODO Auto-generated method stub
-		return 0;
-	}
 
 	public int getxPos() {
 		return xPos;
@@ -73,6 +64,18 @@ public class Log extends GameObject implements java.io.Serializable{
 
 	public void setyPos(int yPos) {
 		this.yPos = yPos;
+	}
+
+	@Override
+	public int getXPosition() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int getYPosition() {
+		// TODO Auto-generated method stub
+		return 0;
 	}
 
 }

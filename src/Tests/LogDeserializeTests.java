@@ -32,8 +32,8 @@ public class LogDeserializeTests {
 	         return;
 	      }
 	      System.out.println("Deserialized Log Data...");
-	      System.out.println("Location X: " + l.getXPosition());
-	      System.out.println("Location Y: " + l.getYPosition());
+	      System.out.println("Location X: " + l.getxPos());
+	      System.out.println("Location Y: " + l.getxPos());
 	  
 	    }
 }

@@ -84,14 +84,12 @@ public class Fish extends GameObject implements java.io.Serializable{
 	}
 
 	public int getXPosition() {
-		// TODO Auto-generated method stub
-		return 0;
+		return xPos;
 	}
 
 	@Override
 	public int getYPosition() {
-		// TODO Auto-generated method stub
-		return 0;
+		return yPos;
 	}
 	
 	
