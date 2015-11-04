@@ -1,5 +1,7 @@
 package Models;
 
+import javax.sql.rowset.JdbcRowSet;
+
 /**
  * 
  * @author vincent
@@ -7,7 +9,7 @@ package Models;
  * and carry out their game actions. 
  *
  */
-public class Boat extends GameObject{
+public class Boat extends GameObject implements java.io.Serializable{
 	
 	private int xPos;
 	private int yPos;
