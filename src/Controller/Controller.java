@@ -85,6 +85,7 @@ public class Controller {
 		for(GameObject gameObject: entities){
 			gameObject.draw();
 		}
+		view.onDraw();
 		
 	}
 
