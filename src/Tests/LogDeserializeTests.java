@@ -6,6 +6,9 @@ import java.io.ObjectInputStream;
 
 import Models.Fish;
 import Models.Log;
+/*
+ * You must run the serialize test first. 
+ */
 
 public class LogDeserializeTests {
 	public static void main(String [] args)

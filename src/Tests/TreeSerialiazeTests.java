@@ -23,7 +23,7 @@ public class TreeSerialiazeTests {
 	         out.writeObject(t);
 	         out.close();
 	         fileOut.close();
-	         System.out.printf("Serialized fish data is saved in /tmp/tree.ser");
+	         System.out.printf("Serialized tree data is saved in /tmp/tree.ser");
 	      }catch(IOException i)
 	      {
 	          i.printStackTrace();

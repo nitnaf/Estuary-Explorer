@@ -6,6 +6,9 @@ import java.io.ObjectInputStream;
 
 import Models.Boat;
 
+/*
+ * You must run the serialize test first. 
+ */
 public class BoatDeserializeTests {
 	public static void main(String [] args)
 	   {

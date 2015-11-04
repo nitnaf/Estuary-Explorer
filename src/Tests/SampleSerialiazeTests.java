@@ -21,7 +21,7 @@ public class SampleSerialiazeTests {
 			out.writeObject(s);
 			out.close();
 			fileOut.close();
-			System.out.printf("Serialized fish data is saved in /tmp/sample.ser");
+			System.out.printf("Serialized sample data is saved in /tmp/sample.ser");
 		} catch (IOException i) {
 			i.printStackTrace();
 		}

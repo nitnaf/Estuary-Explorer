@@ -5,6 +5,9 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 
 import Models.Sample;
+/*
+ * You must run the serialize test first. 
+ */
 
 public class SampleDeserialiazeTests {
 	public static void main(String [] args)

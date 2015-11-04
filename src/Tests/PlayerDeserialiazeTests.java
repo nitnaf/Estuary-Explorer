@@ -7,6 +7,10 @@ import java.io.ObjectInputStream;
 import Models.Fish;
 import Models.Player;
 
+/*
+ * You must run the serialize test first. 
+ */
+
 public class PlayerDeserialiazeTests {
 	public static void main(String [] args)
 	   {

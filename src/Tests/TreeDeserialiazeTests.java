@@ -5,6 +5,9 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 
 import Models.Tree;;
+/*
+ * You must run the serialize test first. 
+ */
 
 public class TreeDeserialiazeTests {
 	public static void main(String [] args)

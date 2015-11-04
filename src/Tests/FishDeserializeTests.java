@@ -5,7 +5,9 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 
 import Models.Fish;
-
+/*
+ * You must run the serialize test first. 
+ */
 public class FishDeserializeTests {
 	public static void main(String [] args)
 	   {
