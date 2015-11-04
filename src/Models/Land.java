@@ -7,18 +7,18 @@ package Models;
  */
 public class Land extends Terrain {
 	
-	private boolean isErroding;
+	private boolean isEroding;
 	
-	public boolean isErroding() {
-		return isErroding;
+	public boolean isEroding() {
+		return isEroding;
 	}
 
 	/**
 	 * 
-	 * @param isErroding a boolean statement to indicate if terrain unit is erroding
+	 * @param isEroding a boolean statement to indicate if terrain unit is eroding
 	 */
-	public void setErroding(boolean isErroding) {
-		this.isErroding = isErroding;
+	public void setEroding(boolean isEroding) {
+		this.isEroding = isEroding;
 	}
 
 	/**
