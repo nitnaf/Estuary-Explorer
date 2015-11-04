@@ -4,17 +4,18 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 
-import Models.Boat;
+import Models.Fish;
+import Models.Log;
 
-public class BoatDeserializeTests {
+public class LogDeserializeTests {
 	public static void main(String [] args)
 	   {
-	      Boat b = null;
+	      Log l = null;
 	      try
 	      {
-	         FileInputStream fileIn = new FileInputStream("/tmp/boat.ser");
+	         FileInputStream fileIn = new FileInputStream("/tmp/log.ser");
 	         ObjectInputStream in = new ObjectInputStream(fileIn);
-	         b = (Boat) in.readObject();
+	         l = (Log) in.readObject();
 	         in.close();
 	         fileIn.close();
 	      }catch(IOException i)
@@ -23,13 +24,13 @@ public class BoatDeserializeTests {
 	         return;
 	      }catch(ClassNotFoundException c)
 	      {
-	         System.out.println("Boat class not found");
+	         System.out.println("Log class not found");
 	         c.printStackTrace();
 	         return;
 	      }
-	      System.out.println("Deserialized Boat Data...");
-	      System.out.println("Location X: " + b.getXPosition());
-	      System.out.println("Location Y: " + b.getYPosition());
-	      System.out.println("Boat Health Level: " + b.getHealth());
+	      System.out.println("Deserialized Log Data...");
+	      System.out.println("Location X: " + l.getXPosition());
+	      System.out.println("Location Y: " + l.getYPosition());
+	  
 	    }
 }

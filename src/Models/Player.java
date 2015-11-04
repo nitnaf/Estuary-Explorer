@@ -1,6 +1,9 @@
 package Models;
 
-public class Player {
+import javax.sql.rowset.JdbcRowSet;
+import javax.tools.JavaCompiler;
+
+public class Player implements java.io.Serializable{
 	
 	private double timeRemaining;
 	private GameObject selectedObject;

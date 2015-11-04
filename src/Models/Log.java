@@ -59,4 +59,20 @@ public class Log extends GameObject implements java.io.Serializable{
 		return 0;
 	}
 
+	public int getxPos() {
+		return xPos;
+	}
+
+	public void setxPos(int xPos) {
+		this.xPos = xPos;
+	}
+
+	public int getyPos() {
+		return yPos;
+	}
+
+	public void setyPos(int yPos) {
+		this.yPos = yPos;
+	}
+
 }
