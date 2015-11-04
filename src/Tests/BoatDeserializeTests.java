@@ -12,7 +12,7 @@ public class BoatDeserializeTests {
 	      Boat b = null;
 	      try
 	      {
-	         FileInputStream fileIn = new FileInputStream("/tmp/boat.ser");
+	         FileInputStream fileIn = new FileInputStream("/res/boat.ser");
 	         ObjectInputStream in = new ObjectInputStream(fileIn);
 	         b = (Boat) in.readObject();
 	         in.close();

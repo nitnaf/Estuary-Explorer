@@ -15,12 +15,12 @@ public class BoatSerializeTests {
 	      try
 	      {
 	         FileOutputStream fileOut =
-	         new FileOutputStream("/tmp/boat.ser");
+	         new FileOutputStream("/res/boat.ser");
 	         ObjectOutputStream out = new ObjectOutputStream(fileOut);
 	         out.writeObject(b);
 	         out.close();
 	         fileOut.close();
-	         System.out.printf("Serialized boat data is saved in /tmp/boat.ser");
+	         System.out.printf("Serialized boat data is saved in /res/boat.ser");
 	      }catch(IOException i)
 	      {
 	          i.printStackTrace();
