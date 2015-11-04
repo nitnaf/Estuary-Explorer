@@ -41,6 +41,12 @@ public class Tree extends GameObject{
 		// TODO Auto-generated method stub
 		
 	}
+
+	@Override
+	public void draw() {
+		// TODO Auto-generated method stub
+		
+	}
 	
 
 }
