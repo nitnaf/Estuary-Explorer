@@ -21,4 +21,10 @@ public class LabTerrainSpot extends Terrain {
 		
 	}
 
+	@Override
+	public void draw() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

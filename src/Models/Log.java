@@ -39,6 +39,10 @@ public class Log extends GameObject{
 	}
 
 	@Override
+	public void draw() {
+		// TODO Auto-generated method stub
+		
+	}
 	public int getXPosition() {
 		// TODO Auto-generated method stub
 		return 0;

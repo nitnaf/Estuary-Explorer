@@ -51,10 +51,15 @@ public class Sample extends GameObject {
 		
 	}
 	@Override
+	public void draw() {
+		// TODO Auto-generated method stub
+		
+	}
 	public int getXPosition() {
 		// TODO Auto-generated method stub
 		return 0;
 	}
+	
 	@Override
 	public int getYPosition() {
 		// TODO Auto-generated method stub

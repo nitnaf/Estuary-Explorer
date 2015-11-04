@@ -74,4 +74,10 @@ public class Boat extends GameObject{
 	}
 
 
+	@Override
+	public void draw() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

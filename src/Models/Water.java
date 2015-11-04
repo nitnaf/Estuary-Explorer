@@ -34,6 +34,12 @@ public class Water extends Terrain{
 		// TODO Auto-generated method stub
 		
 	}
+
+	@Override
+	public void draw() {
+		// TODO Auto-generated method stub
+		
+	}
 	
 
 }
