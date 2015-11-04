@@ -2,7 +2,7 @@ package Models;
 
 import java.io.Serializable;
 
-public class Tree extends GameObject{
+public class Tree extends GameObject implements java.io.Serializable{
 	
 	private int xPos;
 	private int yPos;

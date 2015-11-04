@@ -5,7 +5,7 @@ package Models;
  * @author vincent
  * Game object that represents obstacles that the player must avoid while exploring the world
  */
-public class Log extends GameObject{
+public class Log extends GameObject implements java.io.Serializable{
 
 	private int xPos;
 	private int yPos;

@@ -6,7 +6,7 @@ package Models;
  * Player will collect these objects in order to gather information about how estuary health is declining, and must take action
  * to fix these conflicts.
  */
-public class Sample extends GameObject {
+public class Sample extends GameObject implements java.io.Serializable{
 	
 	private int xPos;
 	private int yPos;

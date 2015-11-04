@@ -1,6 +1,6 @@
 package Models;
 
-public class WorldGrid {
+public class WorldGrid implements java.io.Serializable{
 	
 	private static final int xMax = 300;
 	private static final int xMin = 0;
