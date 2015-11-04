@@ -2,7 +2,10 @@ package Models;
 
 public class Tree extends GameObject{
 	
+	private int xPos;
+	private int yPos;
 	private boolean isAlive;
+	private boolean physical;
 
 	public boolean isAlive() {
 		return isAlive;
@@ -12,6 +15,7 @@ public class Tree extends GameObject{
 		this.isAlive = isAlive;
 	}
 
+	// GameObject --------------------------------------------------------------------------------
 	@Override
 	public void updatePosition() {
 		// TODO Auto-generated method stub
@@ -19,16 +23,18 @@ public class Tree extends GameObject{
 	}
 
 	@Override
-	public boolean collision() {
+	public boolean collision(GameObject x) {
 		// TODO Auto-generated method stub
 		return false;
 	}
 
+	// Physical --------------------------------------------------------------------------------
 	@Override
 	public boolean isColliding() {
 		// TODO Auto-generated method stub
 		return false;
 	}
+	
 	// Drawable --------------------------------------------------------------------------------
 	@Override
 	public void getTexture() {
@@ -46,6 +52,16 @@ public class Tree extends GameObject{
 	public void draw() {
 		// TODO Auto-generated method stub
 		
+	}
+	public int getXPosition() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int getYPosition() {
+		// TODO Auto-generated method stub
+		return 0;
 	}
 	
 

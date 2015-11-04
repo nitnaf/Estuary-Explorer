@@ -4,11 +4,20 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
+import Models.Boat;
+import Models.Fish;
+import Models.Sample;
+
 public class SampleTests {
 
 	@Test
 	public void test() {
-		fail("Not yet implemented");
+		
+		Sample testSample = new Sample();
+		Boat mockBoat = new Boat();
+		
+		assertTrue(mockBoat.collision(testSample));
+		
 	}
 
 }
