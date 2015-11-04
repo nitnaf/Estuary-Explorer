@@ -1,5 +1,11 @@
 package Models;
 
+/**
+ * 
+ * @author vincent
+ * Player will collect these objects in order to gather information about how estuary health is declining, and must take action
+ * to fix these conflicts.
+ */
 public class Sample extends GameObject {
 	
 	private int xPos;
