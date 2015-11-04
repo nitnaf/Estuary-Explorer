@@ -1,5 +1,11 @@
 package Models;
 
+/**
+ * 
+ * @author vincent
+ * Objects that inhabit the estuary. Can either be for scenery or can be interacted with, if they are
+ * designated as an invasive species.
+ */
 public class Fish extends GameObject{
 	
 	private int xPos;

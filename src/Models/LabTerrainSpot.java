@@ -1,5 +1,10 @@
 package Models;
 
+/**
+ * 
+ * @author vincent
+ * The place where the player will visit in order to examine collected data samples
+ */
 public class LabTerrainSpot extends Terrain {
 
 	@Override

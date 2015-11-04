@@ -2,8 +2,9 @@ package Models;
 
 /**
  * 
- * @author 
- *
+ * @author vincent
+ * Positions in the world that cannot be traversed. Land could be eroding, which the player would have to 
+ * react and amend by planting plants.
  */
 public class Land extends Terrain {
 	

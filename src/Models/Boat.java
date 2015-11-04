@@ -1,5 +1,12 @@
 package Models;
 
+/**
+ * 
+ * @author vincent
+ * Represents the object that the player will mainly be controlling to traverse the map
+ * and carry out their game actions. 
+ *
+ */
 public class Boat extends GameObject{
 	
 	private int xPos;
