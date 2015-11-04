@@ -2,3 +2,6 @@ Instead of using a physical interface, we could just have boolean attributes for
 depending on whether or not the class could be drawn decoratively. We can have decorative fish, but every log we draw should be ...
 physical, so the Fish class can have an extra parameter in its constructor to specify whether its physical or not.
 
+
+
+

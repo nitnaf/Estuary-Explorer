@@ -1,5 +1,7 @@
 package Models;
 
+import java.io.Serializable;
+
 public class Tree extends GameObject{
 	
 	private int xPos;
